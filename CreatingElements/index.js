@@ -13,4 +13,5 @@ ul.append(li);
 // console.log(firstListItem.textContent);
 // console.log(firstListItem.innerHTML);
 
+li.innerText = "X-Men";
 
