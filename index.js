@@ -28,3 +28,7 @@
 /* Return the nodelist of collections of all the matching selector in this case its div */
 // const containers = document.querySelectorAll("div");
 // console.log(containers);
+
+
+
+
