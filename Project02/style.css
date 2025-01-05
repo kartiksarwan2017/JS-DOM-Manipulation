@@ -61,13 +61,11 @@ p {
 
 
 #close-btn {
-    font-size: 3rem;
-
+    font-size: 2rem;
 }
 
 #close-btn:hover{
     cursor: pointer;
-    font-size: 3rem;
     color: #ff0000;
 }
 
@@ -86,12 +84,17 @@ p {
 
 @keyframes animatemodal {
     from {
-        top: -300px;
+        /* top: -300px; */
+        /* left: -100px; */
         opacity: 0;
+        background-color:#ff0000;
+        transition-delay: 5s;
     }
 
     to {
-        top: 50%;
+        /* top: 50%; */
         opacity: 1;
+        background-color: #2cff8b;
+        transition-delay: 5s;
     }
 }
